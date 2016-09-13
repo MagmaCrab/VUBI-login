@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Login Options</title>
+	<script src="options.js"></script>
+	<style>
+		body {
+			font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+			font-size: 100%;
+		}
+		h1 {
+			color: #FF6A00;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<h1> VUBi Login Options </h1>
+	</div>
+	<div id="status">
+		<p>After you have saved you're username and password, click the VUBi icon to get started!</p>
+		<p id="activeStatus"></p>
+	</div>
+	<div id="form">
+		<table>
+			<tr>
+				<td>
+					<label>user name</label>: </td>
+				<td>
+					<input type="text" id="username" /> </td>
+			</tr>
+			<tr>
+				<td>
+					<label>password</label>: </td>
+				<td>
+					<input type="password" id="password" /> </td>
+			</tr>
+		</table>
+		<button id="save-button" style="font-weight: bold">save</button>
+		<button id="reset-button"> cancel</button>
+	</div>
+</body>
+
+</html>
